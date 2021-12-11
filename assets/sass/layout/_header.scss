@@ -16,12 +16,12 @@
     }
 
     .title {
-      font-size: 3rem;
+      font-size: 1.5rem;
       font-weight: 900;
       font-family: $title-font;
-      line-height: 3rem;
+      line-height: 1.5rem;
       overflow-wrap: break-word;
-      margin: 2rem 1.5rem;
+      margin: 0.5rem 1.5rem;
 
       @include themify($themes) {
         color: themed("title-color");
